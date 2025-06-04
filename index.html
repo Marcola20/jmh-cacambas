@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JMH Caçambas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white font-sans text-azulescuro">
+
+  <!-- Navbar -->
+  <header class="w-full shadow-md">
+    <div class="flex flex-col md:flex-row items-center justify-between max-w-container mx-auto px-6 py-2 md:py-4">
+      <div class="w-full md:w-auto flex justify-center md:justify-start mb-2 md:mb-0">
+        <img src="assets/jmh_azul.png" alt="Logo JMH" class="h-10">
+      </div>
+
+      <nav class="hidden md:flex gap-8 font-medium">
+        <a href="#classificacoes" class="hover:text-blue-700 transition">Classificações</a>
+        <a href="#diferenciais" class="hover:text-blue-700 transition">Diferenciais</a>
+        <a href="#valores" class="hover:text-blue-700 transition">Missão e Valores</a>
+      </nav>
+
+      <div class="hidden md:flex">
+        <a href="https://wa.me/554197074124" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center bg-[linear-gradient(to_right,#042B4A_0%,#15598E_51%,#042B4A_100%)] text-white px-6 py-3 rounded-full text-sm font-semibold shadow hover:opacity-90 transition">
+          Solicitar Orçamento
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative w-full bg-[url('assets/bg.jpg')] bg-no-repeat bg-center bg-cover">
+    <div class="max-w-container mx-auto px-6 py-10 sm:py-14 md:py-28 text-white text-center md:text-center lg:text-left">
+      <p class="uppercase tracking-[2px] text-[10px] sm:text-xs font-normal mb-4">LOCAÇÃO DE <strong>CAÇAMBAS</strong> EM CURITIBA E REGIÃO</p>
+      <h1 class="text-2xl sm:text-3xl md:text-[56px] font-bold leading-snug md:leading-tight mb-6">
+        Atendemos obras, reformas<br class="hidden md:block"> e limpezas gerais com<br class="hidden md:block"> responsabilidade ambiental!
+      </h1>
+      <a href="https://wa.me/554197074124" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-azulescuro font-semibold px-5 py-2 md:px-6 md:py-3 rounded-lg text-sm shadow hover:bg-gray-100 transition">Entre em contato!</a>
+    </div>
+  </section>
+
+ <!-- Seção Classificações -->
+  <section id="classificacoes" class="w-full py-20">
+    <div class="max-w-container mx-auto px-6">
+      <div class="mb-12">
+        <div class="inline-flex items-center">
+          <div class="w-1.5 h-7 bg-azulescuro"></div>
+          <span class="bg-[#B9FCE7] text-azulescuro text-sm font-medium px-3 py-1">Classificações</span>
+        </div>
+        <h2 class="text-3xl font-bold text-azulescuro mt-4">Tipos de Resíduos</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="border border-gray-200 p-6 rounded-md shadow-sm">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="assets/icons/reciclar.png" alt="Reciclar" class="w-6 h-6">
+            <h3 class="text-lg font-bold text-azulescuro">Classificação A</h3>
+          </div>
+          <p class="text-gray-600 leading-relaxed text-base text-justify">
+            Restos de solo de terraplanagem, material cerâmico, concreto, argamassa, placas de revestimento, telhas cerâmicas, blocos e tijolos.
+          </p>
+        </div>
+
+        <div class="border border-gray-200 p-6 rounded-md shadow-sm">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="assets/icons/reciclar.png" alt="Reciclar" class="w-6 h-6">
+            <h3 class="text-lg font-bold text-azulescuro">Classificação B</h3>
+          </div>
+          <p class="text-gray-600 leading-relaxed text-base text-justify">
+            Madeiras, papel, plástico, metal, gesso e drywall.
+          </p>
+        </div>
+
+        <div class="border border-gray-200 p-6 rounded-md shadow-sm">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="assets/icons/reciclar.png" alt="Reciclar" class="w-6 h-6">
+            <h3 class="text-lg font-bold text-azulescuro">Classificação C</h3>
+          </div>
+          <p class="text-gray-600 leading-relaxed text-base text-justify">
+            Forro mineral, lã de vidro, lã de rocha, fibras, telas, lonas plásticas e isopor.
+          </p>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Diferenciais -->
+  <section id="diferenciais" class="w-full pt-0 pb-20">
+    <div class="max-w-container mx-auto px-6 flex flex-col lg:flex-row gap-12 items-start">
+
+      <div class="flex-1">
+        <div class="mb-12">
+          <div class="inline-flex items-center">
+            <div class="w-1.5 h-7 bg-azulescuro"></div>
+            <span class="bg-[#B9FCE7] text-azulescuro text-sm font-medium px-3 py-1">Diferenciais</span>
+          </div>
+          <h2 class="text-3xl font-bold text-azulescuro mt-4">O que Oferecemos</h2>
+        </div>
+
+        <div class="flex flex-col gap-10">
+
+          <div class="flex items-start gap-4">
+            <img src="assets/icons/emissao.png" alt="Emissão de MTR" class="w-8 h-8 mt-1">
+            <div>
+              <h3 class="text-lg font-bold text-azulescuro">Emissão de MTR e CDF</h3>
+              <p class="text-gray-600 text-base leading-relaxed text-justify">
+                Documentação ambiental garantida, com MTR e CDF para transporte e destinação dos resíduos.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <img src="assets/icons/reciclar.png" alt="Destinação Final" class="w-8 h-8 mt-1">
+            <div>
+              <h3 class="text-lg font-bold text-azulescuro">Destinação Final</h3>
+              <p class="text-gray-600 text-base leading-relaxed text-justify">
+                Resíduos destinados de forma correta, segura e conforme as normas ambientais.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <img src="assets/icons/sinalizacao.png" alt="Sinalização" class="w-8 h-8 mt-1">
+            <div>
+              <h3 class="text-lg font-bold text-azulescuro">Sinalização e Segurança</h3>
+              <p class="text-gray-600 text-base leading-relaxed text-justify">
+                Caçambas sinalizadas e em conformidade com as normas de segurança.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="flex-1 w-full h-[400px] lg:h-auto">
+        <model-viewer src="assets/jmh_cacamba.glb" alt="Modelo 3D Caçamba"
+                auto-rotate
+                camera-controls
+                shadow-intensity="1"
+                ar
+                class="w-full h-[500px] bg-white">
+        </model-viewer>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Galeria de Imagens -->
+  <section class="w-full bg-azulescuro py-16">
+    <div class="max-w-container mx-auto px-6">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide flex justify-center">
+            <img src="assets/galery/1.jpg" alt="Imagem 1" class="rounded-md max-h-[400px] object-cover">
+          </div>
+
+          <div class="swiper-slide flex justify-center">
+            <img src="assets/galery/2.jpg" alt="Imagem 2" class="rounded-md max-h-[400px] object-cover">
+          </div>
+
+          <div class="swiper-slide flex justify-center">
+            <img src="assets/galery/3.jpg" alt="Imagem 3" class="rounded-md max-h-[400px] object-cover">
+          </div>
+
+          <div class="swiper-slide flex justify-center">
+            <img src="assets/galery/4.jpg" alt="Imagem 4" class="rounded-md max-h-[400px] object-cover">
+          </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <div class="swiper-pagination !bottom-[-30px]"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Seção Nossos Valores -->
+  <section id="valores" class="w-full py-20">
+    <div class="max-w-container mx-auto px-6">
+      
+      <div class="mb-12">
+        <div class="inline-flex items-center">
+          <div class="w-1.5 h-7 bg-azulescuro"></div>
+          <span class="bg-[#B9FCE7] text-azulescuro text-sm font-medium px-3 py-1">Destaques</span>
+        </div>
+        <h2 class="text-3xl font-bold text-azulescuro mt-4">Nossos Valores</h2>
+      </div>
+
+      <div class="flex flex-col lg:flex-row items-start gap-12">
+
+        <div class="flex-1 relative">
+          <img src="assets/valores_ups.png" alt="Valores" class="rounded-md w-full max-w-full h-auto">
+        </div>
+
+        <div class="flex-1 flex flex-col gap-8 justify-center self-center">
+
+          <div class="flex items-start gap-4">
+            <img src="assets/icons/ambiental.png" alt="Compromisso Ambiental" class="w-7 h-7 mt-1">
+            <div>
+              <h3 class="text-lg font-bold text-azulescuro">Compromisso Ambiental</h3>
+              <p class="text-gray-600 text-base leading-relaxed text-justify">
+                Garantimos a destinação correta dos resíduos, reduzindo impactos ambientais e promovendo a sustentabilidade. Nosso trabalho contribui diretamente para a preservação dos recursos naturais e o bem-estar das futuras gerações.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <img src="assets/icons/integridade.png" alt="Integridade" class="w-7 h-7 mt-1">
+            <div>
+              <h3 class="text-lg font-bold text-azulescuro">Integridade</h3>
+              <p class="text-gray-600 text-base leading-relaxed text-justify">
+                Atuamos com transparência e responsabilidade, seguindo normas ambientais para um serviço seguro e confiável. Valorizamos relações honestas com clientes, parceiros e a sociedade, sempre pautados pela ética profissional.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <img src="assets/icons/pontualidade.png" alt="Pontualidade" class="w-7 h-7 mt-1">
+            <div>
+              <h3 class="text-lg font-bold text-azulescuro">Pontualidade</h3>
+              <p class="text-gray-600 text-base leading-relaxed text-justify">
+                Cumprimos prazos rigorosamente, garantindo eficiência na entrega e coleta das caçambas para atender nossos clientes. Nossa agilidade operacional assegura tranquilidade em obras, reformas e demais serviços contratados.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Seção Feedbacks -->
+  <section class="w-full py-20 bg-white">
+    <div class="max-w-container mx-auto px-6">
+
+      <div class="mb-12">
+        <div class="inline-flex items-center">
+          <div class="w-1.5 h-7 bg-azulescuro"></div>
+          <span class="bg-[#B9FCE7] text-azulescuro text-sm font-medium px-3 py-1">Nossos Clientes</span>
+        </div>
+        <h2 class="text-3xl font-bold text-azulescuro mt-4">Feedback’s</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="bg-azulescuro p-6 rounded-md shadow flex flex-col items-center text-white">
+          <img src="assets/icons/aspas.png" alt="Aspas" class="w-[66px] h-[47px] mb-4">
+          <div class="text-sm text-justify space-y-3">
+            <p><strong>“Atendimento top! Rapidez na entrega. Muito bom.”</strong> – M&Z Construtora</p>
+            <p><strong>“Excelente atendimento! Recomendo.”</strong> – Hachi Engenharia</p>
+            <p><strong>“Muito satisfeito! Cordialidade, agilidade, preço honesto. Fomos super bem atendidos.”</strong> – RCE Engenharia</p>
+          </div>
+        </div>
+
+        <div class="bg-azulescuro p-6 rounded-md shadow flex flex-col items-center text-white">
+          <img src="assets/icons/aspas.png" alt="Aspas" class="w-[66px] h-[47px] mb-4">
+          <div class="text-sm text-justify space-y-3">
+            <p><strong>“Ótimo atendimento. Cordialidade e eficiência.”</strong> – CAS Engenharia</p>
+            <p><strong>“Excelente serviço!!!”</strong> – MVL Administradora de Bens</p>
+            <p><strong>“Qualidade e agilidade no serviço e no atendimento, recomendo!”</strong> – Marcio Gomes</p>
+          </div>
+        </div>
+
+        <div class="bg-azulescuro p-6 rounded-md shadow flex flex-col items-center text-white">
+          <img src="assets/icons/aspas.png" alt="Aspas" class="w-[66px] h-[47px] mb-4">
+          <div class="text-sm text-justify space-y-3">
+            <p><strong>“Atendimento impecável. Rápido, eficiente, prestativo. Com certeza continuará tendo muito sucesso, pois é focado na satisfação do cliente. Atendeu o condomínio em que sou síndico com maestria. Nota 10.”</strong> – Jorge Pereira</p>
+            <p><strong>“Entrega rápida e atendimento excelente.”</strong> – Chico MIX</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-azulescuro text-white pt-16 pb-6 text-sm">
+    <div class="max-w-container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
+
+      <div class="flex justify-center md:justify-start">
+        <img src="assets/jmh_branco.png" alt="JMH Logo" class="w-[240px] h-auto">
+      </div>
+
+      <div class="flex flex-col items-center md:items-start space-y-2">
+        <h3 class="font-bold text-base mb-2">INFORMAÇÕES</h3>
+        <div class="flex items-center justify-center md:justify-start gap-2">
+          <img src="assets/icons/telefone.png" alt="Telefone" class="w-4 h-4">
+          <span>+55 41 3256-1426</span>
+        </div>
+        <div class="flex items-center justify-center md:justify-start gap-2">
+          <img src="assets/icons/wpp.png" alt="WhatsApp" class="w-4 h-4">
+          <span>+55 41 99707-4124</span>
+        </div>
+        <div class="flex items-center justify-center md:justify-start gap-2">
+          <img src="assets/icons/email.png" alt="Email" class="w-4 h-3">
+          <span>lukas@jmhengenharia.com.br</span>
+        </div>
+        <div class="flex items-center justify-center md:justify-start gap-2">
+          <img src="assets/icons/email.png" alt="Email" class="w-4 h-3">
+          <span>manuela@jmhengenharia.com.br</span>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center md:items-start space-y-3">
+        <div class="flex flex-col items-center md:items-start text-center md:text-left gap-2">
+          <div class="flex items-center justify-center md:justify-start gap-2">
+            <img src="assets/icons/local.png" alt="Localização" class="w-4 h-4">
+            <span>Rua Alcidio Ceccon, 393 - Sala 1</span>
+          </div>
+            <span>Campina Grande do Sul – Paraná, 83430-000</span>
+          </div>
+        <div>
+          <h3 class="font-bold text-base mt-4 mb-2">NOSSAS MÍDIAS</h3>
+          <div class="flex items-center justify-center md:justify-start gap-3">
+            <a href="https://www.instagram.com/jmhgestaodecacambas?igsh=YzhubzBqNGNnNTJv" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons/insta.png" alt="Instagram" class="w-6 h-6">
+            </a>
+            <a href="https://www.linkedin.com/company/jmh-gest%C3%A3o-de-ca%C3%A7ambas/">
+              <img src="assets/icons/linkedin.png" alt="LinkedIn" class="w-6 h-6">
+            </a>
+          </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="border-t border-[#B9FCE7] mt-10 pt-4 text-center text-sm md:text-xs text-white">
+      © Todos os direitos reservados – JMH Caçambas 2009 – MAG.WARE
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
